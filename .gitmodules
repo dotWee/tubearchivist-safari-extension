@@ -1,0 +1,3 @@
+[submodule "Shared (Extension)/Resources/Shared"]
+	path = Shared (Extension)/Resources/Shared
+	url = https://github.com/tubearchivist/browser-extension
