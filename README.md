@@ -24,3 +24,8 @@ Simply build and run, then a window should appear directing you to Safari's exte
 
 This was made with 1-2h, for demonstration purposes only!  
 I do not intent to maintain this application!
+
+## Quick Screenshots
+
+![Screenshot1](https://user-images.githubusercontent.com/8060356/163683101-4fd20e1a-eac6-45b5-b12b-006ae67c2c48.png)
+![Screenshot2](https://user-images.githubusercontent.com/8060356/163683103-4cabf710-5e6d-4fab-a263-749187a64c3f.png)
