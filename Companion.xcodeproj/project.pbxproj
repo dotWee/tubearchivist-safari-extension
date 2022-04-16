@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		802FCC3D280B129C00903E5A /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 802FCC3C280B129C00903E5A /* Shared */; };
 		802FCC3E280B129C00903E5A /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 802FCC3C280B129C00903E5A /* Shared */; };
+		802FCC48280B1AED00903E5A /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 802FCC47280B1AED00903E5A /* icon128.png */; };
+		802FCC49280B1B0A00903E5A /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 802FCC47280B1AED00903E5A /* icon128.png */; };
 		80781B5C280B0817000EB5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80781B5B280B0817000EB5DD /* AppDelegate.swift */; };
 		80781B5E280B0817000EB5DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80781B5D280B0817000EB5DD /* SceneDelegate.swift */; };
 		80781B61280B0817000EB5DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80781B5F280B0817000EB5DD /* LaunchScreen.storyboard */; };
 		80781B64280B0817000EB5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80781B62280B0817000EB5DD /* Main.storyboard */; };
 		80781B6D280B0817000EB5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80781B6C280B0817000EB5DD /* AppDelegate.swift */; };
 		80781B70280B0817000EB5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80781B6E280B0817000EB5DD /* Main.storyboard */; };
-		80781B77280B0817000EB5DD /* Companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80781B76280B0817000EB5DD /* Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		80781B81280B0817000EB5DD /* Companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80781B80280B0817000EB5DD /* Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		80781B77280B0817000EB5DD /* TubeArchivist Companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80781B76280B0817000EB5DD /* TubeArchivist Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		80781B81280B0817000EB5DD /* TubeArchivist Companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80781B80280B0817000EB5DD /* TubeArchivist Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		80781B87280B0817000EB5DD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 80781B42280B0810000EB5DD /* Main.html */; };
 		80781B88280B0817000EB5DD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 80781B42280B0810000EB5DD /* Main.html */; };
-		80781B89280B0817000EB5DD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80781B44280B0810000EB5DD /* Icon.png */; };
-		80781B8A280B0817000EB5DD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80781B44280B0810000EB5DD /* Icon.png */; };
 		80781B8B280B0817000EB5DD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 80781B45280B0810000EB5DD /* Style.css */; };
 		80781B8C280B0817000EB5DD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 80781B45280B0810000EB5DD /* Style.css */; };
 		80781B8D280B0817000EB5DD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 80781B46280B0810000EB5DD /* Script.js */; };
@@ -63,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				80781B77280B0817000EB5DD /* Companion Extension.appex in Embed App Extensions */,
+				80781B77280B0817000EB5DD /* TubeArchivist Companion Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,7 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				80781B81280B0817000EB5DD /* Companion Extension.appex in Embed App Extensions */,
+				80781B81280B0817000EB5DD /* TubeArchivist Companion Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,8 +83,8 @@
 
 /* Begin PBXFileReference section */
 		802FCC3C280B129C00903E5A /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared; sourceTree = "<group>"; };
+		802FCC47280B1AED00903E5A /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "Shared (Extension)/Resources/Shared/extension/images/icon128.png"; sourceTree = "<group>"; };
 		80781B43280B0810000EB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		80781B44280B0810000EB5DD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		80781B45280B0810000EB5DD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		80781B46280B0810000EB5DD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		80781B47280B0810000EB5DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,19 +93,19 @@
 		80781B4C280B0817000EB5DD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		80781B4D280B0817000EB5DD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		80781B4E280B0817000EB5DD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		80781B58280B0817000EB5DD /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80781B58280B0817000EB5DD /* TubeArchivist Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TubeArchivist Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80781B5B280B0817000EB5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80781B5D280B0817000EB5DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80781B60280B0817000EB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80781B63280B0817000EB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80781B65280B0817000EB5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80781B6A280B0817000EB5DD /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80781B6A280B0817000EB5DD /* TubeArchivist Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TubeArchivist Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80781B6C280B0817000EB5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80781B6F280B0817000EB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80781B71280B0817000EB5DD /* Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Companion.entitlements; sourceTree = "<group>"; };
-		80781B76280B0817000EB5DD /* Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80781B76280B0817000EB5DD /* TubeArchivist Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TubeArchivist Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80781B7B280B0817000EB5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80781B80280B0817000EB5DD /* Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80781B80280B0817000EB5DD /* TubeArchivist Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TubeArchivist Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80781B85280B0817000EB5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80781B86280B0817000EB5DD /* Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Companion.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +145,7 @@
 		80781B3B280B0810000EB5DD = {
 			isa = PBXGroup;
 			children = (
+				802FCC47280B1AED00903E5A /* icon128.png */,
 				80781BB5280B0A5D000EB5DD /* Extension */,
 				80781B40280B0810000EB5DD /* Shared (App) */,
 				80781B49280B0817000EB5DD /* Shared (Extension) */,
@@ -170,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				80781B42280B0810000EB5DD /* Main.html */,
-				80781B44280B0810000EB5DD /* Icon.png */,
 				80781B45280B0810000EB5DD /* Style.css */,
 				80781B46280B0810000EB5DD /* Script.js */,
 			);
@@ -200,10 +200,10 @@
 		80781B59280B0817000EB5DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80781B58280B0817000EB5DD /* Companion.app */,
-				80781B6A280B0817000EB5DD /* Companion.app */,
-				80781B76280B0817000EB5DD /* Companion Extension.appex */,
-				80781B80280B0817000EB5DD /* Companion Extension.appex */,
+				80781B58280B0817000EB5DD /* TubeArchivist Companion.app */,
+				80781B6A280B0817000EB5DD /* TubeArchivist Companion.app */,
+				80781B76280B0817000EB5DD /* TubeArchivist Companion Extension.appex */,
+				80781B80280B0817000EB5DD /* TubeArchivist Companion Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 			);
 			name = "Companion (iOS)";
 			productName = "Companion (iOS)";
-			productReference = 80781B58280B0817000EB5DD /* Companion.app */;
+			productReference = 80781B58280B0817000EB5DD /* TubeArchivist Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80781B69280B0817000EB5DD /* Companion (macOS) */ = {
@@ -292,7 +292,7 @@
 			);
 			name = "Companion (macOS)";
 			productName = "Companion (macOS)";
-			productReference = 80781B6A280B0817000EB5DD /* Companion.app */;
+			productReference = 80781B6A280B0817000EB5DD /* TubeArchivist Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80781B75280B0817000EB5DD /* Companion Extension (iOS) */ = {
@@ -309,7 +309,7 @@
 			);
 			name = "Companion Extension (iOS)";
 			productName = "Companion Extension (iOS)";
-			productReference = 80781B76280B0817000EB5DD /* Companion Extension.appex */;
+			productReference = 80781B76280B0817000EB5DD /* TubeArchivist Companion Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		80781B7F280B0817000EB5DD /* Companion Extension (macOS) */ = {
@@ -326,7 +326,7 @@
 			);
 			name = "Companion Extension (macOS)";
 			productName = "Companion Extension (macOS)";
-			productReference = 80781B80280B0817000EB5DD /* Companion Extension.appex */;
+			productReference = 80781B80280B0817000EB5DD /* TubeArchivist Companion Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -379,7 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80781B89280B0817000EB5DD /* Icon.png in Resources */,
+				802FCC48280B1AED00903E5A /* icon128.png in Resources */,
 				80781B61280B0817000EB5DD /* LaunchScreen.storyboard in Resources */,
 				80781B87280B0817000EB5DD /* Main.html in Resources */,
 				80781B8D280B0817000EB5DD /* Script.js in Resources */,
@@ -393,7 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80781B8A280B0817000EB5DD /* Icon.png in Resources */,
+				802FCC49280B1B0A00903E5A /* icon128.png in Resources */,
 				80781B8C280B0817000EB5DD /* Style.css in Resources */,
 				80781B70280B0817000EB5DD /* Main.storyboard in Resources */,
 				80781B8E280B0817000EB5DD /* Script.js in Resources */,
@@ -630,7 +630,7 @@
 				DEVELOPMENT_TEAM = 4EGEDRDDUV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Companion Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -644,7 +644,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion.Extension;
-				PRODUCT_NAME = "Companion Extension";
+				PRODUCT_NAME = "TubeArchivist Companion Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -661,7 +661,7 @@
 				DEVELOPMENT_TEAM = 4EGEDRDDUV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Companion Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -675,7 +675,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion.Extension;
-				PRODUCT_NAME = "Companion Extension";
+				PRODUCT_NAME = "TubeArchivist Companion Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -696,7 +696,7 @@
 				DEVELOPMENT_TEAM = 4EGEDRDDUV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Companion;
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -715,7 +715,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion;
-				PRODUCT_NAME = Companion;
+				PRODUCT_NAME = "TubeArchivist Companion";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -734,7 +734,7 @@
 				DEVELOPMENT_TEAM = 4EGEDRDDUV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Companion;
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -753,7 +753,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion;
-				PRODUCT_NAME = Companion;
+				PRODUCT_NAME = "TubeArchivist Companion";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -772,7 +772,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Companion Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -786,7 +786,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion.Extension;
-				PRODUCT_NAME = "Companion Extension";
+				PRODUCT_NAME = "TubeArchivist Companion Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -804,7 +804,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Companion Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -818,7 +818,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion.Extension;
-				PRODUCT_NAME = "Companion Extension";
+				PRODUCT_NAME = "TubeArchivist Companion Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -838,7 +838,7 @@
 				DEVELOPMENT_TEAM = 4EGEDRDDUV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Companion;
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -854,7 +854,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion;
-				PRODUCT_NAME = Companion;
+				PRODUCT_NAME = "TubeArchivist Companion";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -873,7 +873,7 @@
 				DEVELOPMENT_TEAM = 4EGEDRDDUV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Companion;
+				INFOPLIST_KEY_CFBundleDisplayName = "TubeArchivist Companion";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -889,7 +889,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tubearchivist.Companion;
-				PRODUCT_NAME = Companion;
+				PRODUCT_NAME = "TubeArchivist Companion";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
